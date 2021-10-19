@@ -1,0 +1,206 @@
+@font-face {
+  font-family: Bai Jamjuree Light;
+  src: url(../fonts/BaiJamjuree-Light.ttf);
+}
+@font-face {
+  font-family: Bai Jamjuree Regular;
+  src: url(../fonts/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url(../fonts/JosefinSans-ExtraLight.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 1400px;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  overflow-x: visible;
+  background-color: rgb(255, 255, 255);
+  font-family: Bai Jamjuree Regular;
+  font-size: 15px;
+}
+.border {
+  border: 2px solid white;
+  padding: 30px;
+}
+nav{
+  font-family:  Bai Jamjuree Regular;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.flex {
+  display: flex;
+}
+.sa_btn {
+  display: block;
+  margin: 60px auto;
+}
+.sa_font {
+  font-size: 25px !important;
+}
+p {
+  line-height: 2rem;
+}
+.pad_20 {
+  padding: 20px;
+}
+.pad_70 {
+  padding: 70px 0 70px 0;
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+ul li {
+  float: left;
+  padding: 0;
+}
+
+ul li a {
+  padding: 10px;
+  color: white;
+}
+#index-banner {
+  background-image: url(../img/desktop/image-hero.jpg);
+  background-position: top center;
+  height: 80vh;
+  background-repeat: no-repeat;
+  margin-top: -80px;
+}
+.hero_text {
+  margin: 150px 0 0 0;
+}
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.grid_container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.grid_text {
+  margin: -120px 0 0 0;
+  padding: 5px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.footer_logo {
+  padding: 0 0 0 10px;
+}
+@media only screen and (max-width: 992px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+footer.page-footer {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    width: 375px;
+  }
+  .hero_text{
+    font-size: 3.0rem;
+  }
+  .header_toggle > span:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .header_toggle > span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    transform-origin: 3px 1px;
+  }
+  #index-banner {
+    background-image: url(../img/mobile/image-hero.jpg);
+    background-position:center center;
+    height: 80vh; 
+  }
+  h3{
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    margin: 0 !important;
+  }
+  p{
+    text-align: center;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+  .grid_container1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+  .grid_text {
+    margin: -70px 0 0 0 !important;
+    text-align: left !important;
+    font-size: 2.0rem !important;
+    padding: 15px !important;
+    word-wrap: break-word;
+    
+  }
+  .box{
+   margin: 20px;
+  }
+  ul li{
+    float: none;
+    text-align: center;
+  }
+  .footer_center{
+    display: block;
+    margin: 0 auto;
+    padding: 20px !important;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  html, body{
+    width: 100%;
+  }
+  #index-banner {
+    background-repeat: round;
+  }
+
+  .lead_in{
+    padding: 180px 0 0 0;
+  }
+
+}
