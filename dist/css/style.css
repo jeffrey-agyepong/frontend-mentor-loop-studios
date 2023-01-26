@@ -36,8 +36,8 @@ body {
   border: 2px solid white;
   padding: 30px;
 }
-nav{
-  font-family:  Bai Jamjuree Regular;
+nav {
+  font-family: Bai Jamjuree Regular;
 }
 nav ul a,
 nav .brand-logo {
@@ -87,8 +87,21 @@ ul li a {
   margin-top: -80px;
 }
 
-.clip_image{
-  clip-path: polygon(0% 15%, 0 1%, 15% 0%, 100% 0, 100% 35%, 76% 35%, 76% 90%, 76% 100%, 51% 100%, 15% 100%, 0 100%, 0 13%);
+.clip_image {
+  clip-path: polygon(
+    0% 15%,
+    0 1%,
+    15% 0%,
+    100% 0,
+    100% 35%,
+    76% 35%,
+    76% 90%,
+    76% 100%,
+    51% 100%,
+    15% 100%,
+    0 100%,
+    0 13%
+  );
 }
 .hero_text {
   margin: 150px 0 0 0;
@@ -133,8 +146,8 @@ footer.page-footer {
   body {
     width: 375px;
   }
-  .hero_text{
-    font-size: 3.0rem;
+  .hero_text {
+    font-size: 3rem;
   }
   .header_toggle > span:not(:last-child) {
     margin-bottom: 5px;
@@ -149,22 +162,22 @@ footer.page-footer {
   }
   #index-banner {
     background-image: url(../img/mobile/image-hero.jpg);
-    background-position:center center;
-    height: 80vh; 
+    background-position: center center;
+    height: 80vh;
   }
-  .section_one_img{
+  .section_one_img {
     padding: 20px;
   }
-  .section_one_text h2{
+  .section_one_text h2 {
     font-size: 3rem;
     text-align: center;
   }
-  h3{
+  h3 {
     text-align: center !important;
     font-size: 2.5rem !important;
     margin: 0 !important;
   }
-  p{
+  p {
     text-align: center;
   }
   #index-banner .section {
@@ -183,19 +196,18 @@ footer.page-footer {
   .grid_text {
     margin: -70px 0 0 0 !important;
     text-align: left !important;
-    font-size: 2.0rem !important;
+    font-size: 2rem !important;
     padding: 15px !important;
     word-wrap: break-word;
-    
   }
-  .box{
-   margin: 20px;
+  .box {
+    margin: 20px;
   }
-  ul li{
+  ul li {
     float: none;
     text-align: center;
   }
-  .footer_center{
+  .footer_center {
     display: block;
     margin: 0 auto;
     padding: 20px !important;
@@ -204,24 +216,22 @@ footer.page-footer {
 }
 
 @media (min-width: 992px) {
-  html, body{
+  html,
+  body {
     width: 100%;
   }
-  #index-banner {
-    background-repeat: round;
-  }
 
-  .lead_in{
+  .lead_in {
     padding: 180px 0 0 0;
   }
-  .section_one_text{
+  .section_one_text {
     position: relative;
     padding: 5rem;
     left: -222px;
     bottom: -100px;
     width: 500px;
   }
-  .section_one_text h2{
+  .section_one_text h2 {
     font-size: 3rem;
   }
 }
